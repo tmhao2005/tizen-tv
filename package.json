@@ -1,0 +1,49 @@
+{
+  "name": "tv-samsung-tizen",
+  "version": "1.0.0",
+  "description": "An example of combination of React + TV Samsung App",
+  "main": "index.js",
+  "author": "Hao Tran",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot",
+    "dev": "webpack --config webpack.config.js --watch",
+    "build": "webpack --config webpack.config.js",
+    "test": "npm test",
+    "rm:dist": "rimraf dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.8.0",
+    "@babel/plugin-transform-classes": "^7.8.0",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.2",
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "terser-webpack-plugin": "^2.3.2",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.3.4000",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.6.2",
+    "@go1d/go1d": "^0.9.64",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "core-js": "^3.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "browserslist": [
+    "IE 11"
+  ]
+}
